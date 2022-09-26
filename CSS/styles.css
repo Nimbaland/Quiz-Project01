@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+*<box-sizing>BorderBox</box-sizing>
+*.background {
+    background-color: deepskyblue;
+}
+
+.show-answer  {
+    background-color: #fb28bb; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+    transition-duration: 0.4s;
+    }
+  
+  button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
