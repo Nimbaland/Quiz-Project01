@@ -1,7 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-*<box-sizing>BorderBox</box-sizing>
-*.background {
-    background-color: deepskyblue;
+@import ".global.css"
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('./fonts/Poppins-Bold.ttf') format('truetype')
+}
+
+*{
+    box-sizing: border-box
+}
+
+
+
+
 }
 
 .show-answer  {
